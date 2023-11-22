@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.bg-body-tertiary {
+    background: linear-gradient(90deg, #f0f0f0, #333);
+  }
+  
+  .navbar {
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+  }
+
+  .nav-link {
+    padding: 0 20px; 
+  }
+  
+  /* Add hover effect */
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.939); 
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Adjust the navigation links to the right */
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  

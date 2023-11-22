@@ -1,0 +1,30 @@
+.empty {
+    background: linear-gradient(90deg, #948072, #e0dbde);
+    background-size: 200% 100%;
+    animation: gradientBG 5s linear infinite;
+    text-align: center;
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 3rem;
+    color: #f0f; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
+  }
+  
+  h1:hover {
+    transform: translateZ(10px);
+    color: #0ff; 
+  }
+  
